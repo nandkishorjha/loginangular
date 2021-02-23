@@ -1,0 +1,18 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .mat-sidenav{
+      background:#222831;
+      min-width: 250px;
+      color:#fff;
+  }
+  .mat-toolbar{
+      background:#222831;
+      color:#fff;
+  }
+  .mat-toolbar span{cursor: pointer; margin-right: 20px; font-size: 2rem;}
+  .example-spacer {flex: 1 1 auto;}

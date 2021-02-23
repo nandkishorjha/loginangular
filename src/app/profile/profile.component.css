@@ -1,0 +1,146 @@
+.edu{
+    width:70%;
+    margin:0 auto;
+    position: relative;
+}
+.edu::before{
+    content: '';
+    width:10px;
+    height: 100%;
+    background:red;
+    position:absolute;
+    left:-50px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.card{
+    margin-top: 10px;
+    padding:10px;
+    border:none;
+    text-align: center;
+    border-radius: 15px;
+}
+.card-one{
+    background:rgb(90, 175, 4);
+    color:#fff;
+    position: relative;
+}
+.card-one::before{
+    content: '';
+    border-top: 30px solid rgb(90, 175, 4);
+    border-bottom: 30px solid rgb(90, 175, 4);
+    border-left: 30px solid rgb(90, 175, 4);
+    border-right: 30px solid rgb(90, 175, 4);
+    top:16px;
+    left: -15px;
+    position:absolute;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.card-one h3{position: relative;}
+.card-one h3::before{
+    content: '';
+    width:20px;
+    height:20px;
+    position: absolute;
+    background:rgb(90, 175, 4);
+    border-radius: 10px;
+    top:27px;
+    left:-65px;
+    z-index: 1;
+    
+}
+.card-two{
+    background:rgb(197, 211, 6);
+    color:#fff;
+    position: relative;
+}
+.card-two::before{
+    content: '';
+    border-top: 30px solid rgb(197, 211, 6);
+    border-bottom: 30px solid rgb(197, 211, 6);
+    border-left: 30px solid rgb(197, 211, 6);
+    border-right: 30px solid rgb(197, 211, 6);
+    top:16px;
+    left: -15px;
+    position:absolute;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.card-two h3{position: relative;}
+.card-two h3::before{
+    content: '';
+    width:20px;
+    height:20px;
+    position: absolute;
+    background:rgb(197, 211, 6);
+    border-radius: 10px;
+    top:27px;
+    left:-65px;
+    z-index: 1;
+}
+.card-three{
+    background:rgb(175, 6, 167);
+    color:#fff;
+    position: relative;
+}
+.card-three::before{
+    content: '';
+    border-top: 30px solid rgb(175, 6, 167);
+    border-bottom: 30px solid rgb(175, 6, 167);
+    border-left: 30px solid rgb(175, 6, 167);
+    border-right: 30px solid rgb(175, 6, 167);
+    top:16px;
+    left: -15px;
+    position:absolute;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.card-three h3{position: relative;}
+.card-three h3::before{
+    content: '';
+    width:20px;
+    height:20px;
+    position: absolute;
+    background:rgb(175, 6, 167);
+    border-radius: 10px;
+    top:27px;
+    left:-65px;
+    z-index: 1;
+    
+}
+.card-four{
+    background:rgb(4, 192, 206);
+    color:#fff;
+    position: relative;
+}
+.card-four::before{
+    content: '';
+    border-top: 30px solid rgb(4, 192, 206);
+    border-bottom: 30px solid rgb(4, 192, 206);
+    border-left: 30px solid rgb(4, 192, 206);
+    border-right: 30px solid rgb(4, 192, 206);
+    top:16px;
+    left: -15px;
+    position:absolute;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.card-four h3{position: relative;}
+.card-four h3::before{
+    content: '';
+    width:20px;
+    height:20px;
+    position: absolute;
+    background:rgb(4, 192, 206);
+    border-radius: 10px;
+    top:27px;
+    left:-65px;
+    z-index: 1;
+}
+.lang{text-align: left; margin-top: 30px; width:80%;}
+.work .card{
+    box-shadow: 0px 0px 20px rgb(51, 43, 43);
+    width:90%;
+    margin:20px auto;
+}
